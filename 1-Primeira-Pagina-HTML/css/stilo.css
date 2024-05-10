@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.principal{
+    margin-top: -3vh;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+.header{
+    display: flex;
+    padding: 20px;
+    background-color: #373446;
+    box-shadow: 1px 20px 50px #140808;
+}
+
+.header h1{
+    display: flex-wrap;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.header img{
+    max-width: 15%;
+    padding: 10px;
+}
+
+
+blockquote{
+    background-color: rgb(182, 185, 200);
+    margin-top: 5vh;
+    padding: 3vh;
+    font-size: 20px;
+
+}
+/* Navegacao */
+.inicio{
+    text-align: center;
+    align-items: center;
+    padding: 2vh;
+}
+.inicio a{
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.inicio a:hover{
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+a, h2{
+    text-decoration: none;
+    padding-top: 5vh;
+    color: #333;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+main img{
+    width: 100%;
+}
+
+section p{
+    margin-top: 10px;
+}
+
+.social-media{
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.social-icons{
+    margin-top: 20px;
+}
+
+.social-icons a{
+    display: inline-block;
+    margin: 0 2vh;
+}
+
+.social-icons img{
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons img:hover{
+    background-color: rgb(197, 195, 205);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgb(42, 38, 38);
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer p{
+    font-weight: bold;
+}
