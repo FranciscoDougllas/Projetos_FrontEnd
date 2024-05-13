@@ -5,74 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos Front-End</title>
 
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            font-family: 'Courier New', Courier, monospace;
-            box-sizing: border-box;
-        }
+    <link rel="stylesheet" href="css/style.css">
 
-        body{
-            margin: 0 auto;
-            max-width: 1450px;
-        }
-
-        header{
-            display: flex;
-            background-color: #333;
-            text-align: center;
-            padding: 5vh;
-            color: #fff;
-            font-size: 2rem;
-            margin-bottom: 5vh;
-        }
-        header h1{
-            text-align: center;
-            font-size: 5rem;
-        }
-
-        nav ul, li{
-            list-style: none;
-            padding: 10px;
-        }
-        a{
-            text-decoration: none;
-            font-size: 1.5rem;
-        }
-        li a:hover{
-            font-size: 3rem;
-            background-color: rgb(176, 179, 208);
-            padding: 10px;
-            border-radius: 20px;
-            box-shadow: 0 0 2cqmax rgb(2, 2, 2);
-            text-align: center;
-        }
-        img{
-            width: 50%;
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <h1>Projetos Front-End</h1>
-        <!-- <img src="" alt="Projetos Front-End"> -->
-        <img src="img/programador.jpg" alt="Programador">
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="1-Primeira-Pagina-HTML/Primeira_pagina_em_HTML.html" target="_blank">1 - Primeira Pagina em HTML</a></li>
-            <li><a href="2-Teste/teste.html">PAGINA TESTE</a></li>
-            <li><a href="">Em Breve</a></li>
-            <li><a href="">Em Breve</a></li>
-            <li><a href="">Em Breve</a></li>
-            <li><a href="">Em Breve</a></li>
-            <li><a href="">Em Breve</a></li>
-            <li><a href="">Em Breve</a></li>
-            <li><a href="">Em Breve</a></li>
-            <li><a href="">Em Breve</a></li>
-        </ul>
-    </nav>
+    <div class="principal">
+        <nav class="navegacao">
+            <a href="#">Contato</a>
+            <a href="#">Projetos</a>
+            <a href="#">Formações</a>
+            <a href="#">Cursos</a>
+        </nav>
+
+        <header class="header">
+            <img src="img/pngwing.com.png" alt="Programador">
+            <ul>
+                <li>Sobre mim</li>
+                <li>Nome: Francisco Douglas</li>
+                <p>Idade: 29</p>
+                <li>Formado: Gestão Financeira</li>
+                <li>Cursando: Engenharia da Computação</li>
+                <li>Telegram</li>
+                <li>Linkdin</li>
+                <li>GitHub</li>
+            </ul>
+        </header>
+
+        <main>
+            <h3>Linguagems de Programação</h3>
+            <section>
+                <ul id="icones">
+                    <li><img src="img/css.png" alt="Icones"></li>
+                    <li><img src="img/html.png" alt="Icones"></li>
+                    <li><img src="img/javascript.png" alt="Icones"></li>
+                    <li><img src="img/java.png" alt="Icones"></li>
+                    <li><img src="img/python.png" alt="Icones"></li>
+                </ul>    
+            </section>
+
+            <h3>Projetos Front-End</h3>
+            <section>
+                <ul id="img-sites">
+                    
+                    <li><a href="1-Primeira-Pagina-HTML/Primeira_pagina_em_HTML.html" target="_blank"><img src="img/site-html.png" alt=""></a></li>
+                    <li><a href="2-Site-DogLovers/Home.html" target="_blank"><img src="img/site-dogs.png" alt=""></a></li>
+                    <!-- <li><a href="#"> </a></li>
+                    <li><a href="#"> </a></li> -->
+                   
+                </ul>
+            </section>
+
+            <section class="sobre">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quo tempora tenetur, labore at neque fugiat. Amet incidunt nobis, earum sunt enim ad dolor voluptas dolorum omnis eum, velit repellat!</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Francisco Douglas</p>
+        </footer>
+    </div>
 </body>
 </html>
