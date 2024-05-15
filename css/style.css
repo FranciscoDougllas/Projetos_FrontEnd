@@ -41,6 +41,7 @@ body{
 }
 .header img{
     max-width: 40%;
+    border-radius: 40px;
 }
 .header ul{
     font-size: 1.5rem;
@@ -94,7 +95,7 @@ section #img-sites img{
     width: 450px;
     height: 250px;
     opacity: 0.5;
-    border-radius: 10px;
+    border-radius: 50px;
     box-shadow: 0 0 10px #ccc;
 
 }
@@ -105,9 +106,18 @@ section #img-sites img:hover{
     box-shadow: 0 0 10px #fff;
 }
 
-
+.sobre p{
+    text-align: center;
+    color: #fff;
+}
 
 footer{
     margin-top: 10vh;
     margin-bottom: 2vh;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
