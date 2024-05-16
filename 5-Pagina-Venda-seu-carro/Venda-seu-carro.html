@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda Seu Carro</title>
+
+    <link rel="stylesheet" href="css/stilo.css">
+
+</head>
+<body>
+    <header>
+        <h1>Cadastre seu veículo para a venda</h1>
+        <img src="img/carro.png" alt="">
+    </header>
+    
+    <main>
+        <section class="formulario">
+            <h2>Formulário de Venda</h2>
+            <p>Descreva as caracteristicas do carro!</p>
+            <form action="">
+                <label for="titulo">Titulo do Anuncio *</label>
+                <input type="text" name="titulo" id="titulo" placeholder="Titulo do anuncio:" required>
+
+                <label for="preco">Preço *</label>
+                <input type="number" id="preco" name="preco" placeholder="Preço:" required>
+
+                <label for="descricao">Descrição *</label>
+                <textarea name="descricao" id="descricao" placeholder="Descreva o Carro:" minlength="10" maxlength="200" required></textarea>
+
+                <label for="marca">Marca *</label>
+                <input type="text" name="marca" id="marca" required placeholder="Marca do Carro:">
+
+                <label for="modelo">Modelo *</label>
+                <input type="text" name="modelo" id="modelo" required placeholder="Modelo do Carro:">
+
+                <label for="km">Kilometragem *</label>
+                <input type="number" id="km" name="km" placeholder="Kilometragem:">
+
+                <label for="data-compra">Data da Compra *</label>
+                <input type="date" name="data-compra" id="data-compra" placeholder="Data da Compra:">
+                
+            </form>
+        </section>
+
+        <p>Tipo de Cambio *</p>
+        <section class="cambio-opcoes">
+            <ul>
+                <li>
+                    
+                    <label for="manual">Manual: </label>
+                    <input type="radio" id="manual"><br>
+                    <label for="alto">Altomatico</label>
+                    <input type="radio" id="alto">
+                </li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Francisco Douglas</p>
+    </footer>
+</body>
+</html>
