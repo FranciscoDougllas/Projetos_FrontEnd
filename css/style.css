@@ -2,124 +2,89 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body{
+.principal{
     margin: 0 auto;
-    border: 1px solid;
-    background-color: hsl(208, 28%, 14%, 01);
 }
-
-/* Navegacao da Pagina Superior */
 .navegacao{
     display: flex;
-    padding: 10px 20px;
     justify-content: center;
 }
 .navegacao a{
-    margin: 12px 5vw;
+    padding: 20px;
+    font-size: 1.5rem;
     text-decoration: none;
-    font-size: 20px;
-    color: #fff;
-    font-weight: bold;
-    padding: 1vh 3vw;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #fff;
-}
-.navegacao a:hover{
-    background-color: #cecfd6;
-    box-shadow: 0 0 20px #ccc;
 }
 
-/* Cabeçalho e Conteudos do Cabeçalho */
 .header{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 5vh;
-}
-.header img{
-    max-width: 40%;
-    border-radius: 40px;
-}
-.header ul{
-    font-size: 1.5rem;
-    list-style: none;
-    color: #fff;
-}
-.header li{
-    margin-bottom: 1vh;
-}
-main{
     margin-top: 10vh;
-}
-main h3{
-    text-align: center;
-    font-size: 2rem;
-    color: #fff;
-    margin-bottom: 5vh;
-}
-section ul{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-
-section ul > li{
-    padding: 10px 20px;
-    list-style: none;
+.header img{
+    width: 50%;
 }
-section a{
-    color: #fff;
-    text-decoration: none;
+main h3{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
 }
-
-section #icones img{
-    display: block;
-    width: 5vw;
-    border-radius: 20px;
-    background-color: rgb(169, 169, 216);
-    margin-bottom: 10vh;
-}
-section #icones img:hover{
-    box-shadow: 0 0 20px #fff;
-    width: 10vw;
-}
-
-section #img-sites{
+#icones{
     display: flex;
-    margin-bottom: 10vh;
-    flex-wrap: wrap;
+    justify-content: center;
+}
+#icones img{
+    width: 50px;
+    height: 50px;
 }
 
-section #img-sites img{
-    width: 450px;
-    height: 250px;
-    opacity: 0.5;
-    border-radius: 50px;
-    box-shadow: 0 0 10px #ccc;
+#img-sites{
+    display: flex;
+    justify-content: center;
+}
+#img-sites img{
+    display: flex;
+    width: 250px;
+}
+ 
+/* Regras de mídia para tornar o site responsivo */
+/*
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
 
-}
-section #img-sites img:hover{
-    width: 550px;
-    height: auto;
-    opacity: 1;
-    box-shadow: 0 0 10px #fff;
+    .header img {
+        margin-bottom: 20px;
+    }
+
+    .header ul {
+        font-size: 1.2rem;
+    }
 }
 
-.sobre p{
-    text-align: center;
-    color: #fff;
-}
+@media screen and (max-width: 480px) {
+    .navegacao a {
+        margin: 8px 2vw;
+        font-size: 16px;
+    }
 
-footer{
-    margin-top: 10vh;
-    margin-bottom: 2vh;
-}
-footer p{
-    color: #fff;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+    .header img {
+        max-width: 80%;
+    }
+
+    main h3 {
+        font-size: 1.5rem;
+    }
+
+    section #icones img {
+        max-width: 80px;
+    }
+
+    section #img-sites img {
+        max-width: 90%;
+    }
+} */
