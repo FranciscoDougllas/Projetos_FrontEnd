@@ -4,3 +4,90 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0 auto;
+    max-width: 1250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    padding: 10px 20px;
+    background-color: #f7f8f9;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+}
+#cabecalho nav{
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#cabecalho img{
+    width: 250px;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #114123;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    color: blue;
+}
+
+/* Banner */
+#banner-texto{
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+#banner-texto img{
+    width: 100%;
+    height: 550px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#banner-texto p{
+    padding: 20px;
+    border-bottom: 2px solid;
+}
+
+
+/* Containe de Receitas */
+#principais-receitas h2{
+    text-align: center;
+}
+
+.container-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-lista li {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.container-lista img{
+    width: 350px;
+    height: 250px;
+}
+
+.container-lista li > a{
+    text-decoration: none;
+    font-weight: 550;
+}
+.container-lista span{
+    margin-bottom: 2vh;
+}
