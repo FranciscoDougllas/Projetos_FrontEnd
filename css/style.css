@@ -216,4 +216,18 @@ body{
 
 
 
-
+/* Responsividade do Site */
+@media screen and (max-width: 768px){
+    #cabecalho, .nv-superior, #container-apresent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    #cabecalho h1{
+        font-size: 1.2rem;
+    }
+    #container-apresent img{
+        width: 100%;
+    }
