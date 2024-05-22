@@ -5,65 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos Front-End</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="principal">
-        <nav class="navegacao">
-            <h1>FD</h1>
-            <a href="#">Contato</a>
-            <a href="#">Projetos</a>
-            <a href="#">Formações</a>
-            <a href="#">Cursos</a>
-        </nav>
-
-        <header class="header">
-            <img src="img/8.png" alt="Programador">
-            <ul>
-                <li class="sobre-mim">Sobre mim</li>
-                <li>Nome: Francisco Douglas</li>
-                <li>Idade: 29</li>
-                <li>Formado: Gestão Financeira</li>
-                <li>Cursando: Engenharia da Computação</li>
-                <li>Telegram</li>
-                <li>Linkdin</li>
-                <li>GitHub</li>
-            </ul>
+    <main>
+        <header id="cabecalho" id="home">
+            <img src="images/meus-logos/logo-transp.png" alt="Imagen Principal">
+            <h1>Francisco Douglas</h1>
+            <nav class="nv-superior">
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
         </header>
 
-        <main>
-            <h3>Linguagens de Programação</h3>
-            <section>
-                <ul id="icones">
-                    <li><img src="img/css.png" alt="CSS"></li>
-                    <li><img src="img/html.png" alt="HTML"></li>
-                    <li><img src="img/javascript.png" alt="JavaScript"></li>
-                    <li><img src="img/java.png" alt="Java"></li>
-                    <li><img src="img/python.png" alt="Python"></li>
-                </ul>
-            </section>
+        <section id="container-apresent">
+            <img src="images/meus-logos/LOGO2.png" alt="">
+            <div class="apresent">
+                <h2>Olá! Me Chamo <span>Francisco Douglas</span></h2>
+                <h2>Sou Desenvolvedor <span>Front-End</span></h2>
+                <h2>Aluno Formando em <span>Engenharia da Computação</span></h2>
+                <p>Atualmente trabalho com <span>HTML, CSS, JavaScript, React, Python</span></p>
 
-            <h3>Projetos Front-End</h3>
-            <section>
-                <ul id="img-sites">
-                    <li><a href="01_HTML_CSS/1-Primeira-Pagina-HTML/Primeira_pagina_em_HTML.html" target="_blank"><img src="img/site-html.png" alt="Primeiro Projeto"></a></li>
-                    <li><a href="01_HTML_CSS/2-Site-DogLovers/Home.html" target="_blank"><img src="img/site-dogs.png" alt="Segundo Projeto"></a></li>
-                    <li><a href="01_HTML_CSS/3-Tribudo-JamesBlunt/Tributo-james-blunt.html" target="_blank"><img src="img/james-blunt.png" alt="Terceiro Projeto"></a></li>
-                    <li><a href="01_HTML_CSS/4_Recriando-Wikipedia/Recriando-wikipedia.html" target="_blank"><img src="img/godzilla-vs-kong.jpg" alt="Quarto Projeto"></a></li>
-                    <li><a href="01_HTML_CSS/5-Pagina-Venda-seu-carro/Venda-seu-carro.html" target="_blank"><img src="img/carro.png" alt="Quinto Projeto"></a></li>
-                    <li><a href="01_HTML_CSS/6-HDC-Host/HDCHost.html" target="_blank"><img src="img/host.jpg" alt="Sexto Projeto"></a></li>
-                    <li><a href="01_HTML_CSS/7-Clone-Instagram/Clone_pagina_inicial.html" target="_blank"><img src="img/instagram.jpg" alt="Sétimo Projeto"></a></li>
-                    <li><a href="01_HTML_CSS/8-Blog-semantico/blog_semantico.html" target="_blank"><img src="img/blog.jpg" alt="Oitavo Projeto"></a></li>
-                </ul>
-            </section>
+                <div class="links-direto">
+                    <a class="button" href="#projetos">Projetos</a>
+                    <a class="button" href="#sobre">Sobre Mim</a>
+                </div>
+            </div>      
+        </section>
 
-            <section class="sobre">
-                <p>-----</p>
-            </section>
-        </main>
+        <section id="habilidades">
+            <h2>Minhas Habilidades</h2>
+            <ul class="lista-habilidades">
+                <li><span>HTML</span><img src="images/icones/html5.png" alt="HTML"></li>
+                <li><span>CSS</span><img src="images/icones/css3.png" alt="CSS"></li>
+                <li><span>JavaScript</span><img src="images/icones/javascript.png" alt=""></li>
+                <li><span>Python</span><img src="images/icones/python.png" alt=""></li>
+                
+                <!-- <li><span></span><img src="" alt=""></li>
+                <li><span></span><img src="" alt=""></li>
+                <li><span></span><img src="" alt=""></li>
+                <li><span></span><img src="" alt=""></li>
+                <li><span></span><img src="" alt=""></li>
+                <li><span></span><img src="" alt=""></li> -->
+            </ul>
+        </section>
 
-        <footer>
-            <p>&copy; 2024 Francisco Douglas</p>
-        </footer>
-    </div>
+        <section id="projetos">
+            <h2 id="h2-grande">Meus Projetos</h2>
+            <h2>Projetos HTML & CSS</h2>
+            <p>Projetos Desenvolvidos apenas com HTML & CSS:</p>
+            <ul class="container-lista">
+                <li>
+                    <span>Primeira pagina em HTML</span>
+                    <a href="01_HTML_CSS/1-Primeira-Pagina-HTML/Primeira_pagina_em_HTML.html" target="_blank">
+                        <img src="images/img/html.jpg" alt=""></a></li>
+                
+                <li>
+                    <span>Site Dog Lovers</span>
+                    <a href="01_HTML_CSS/2-Site-DogLovers/Home.html" target="_blank">
+                        <img src="images/img/dog_lovers.jpg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <span>Landing Page James Blunt</span>
+                    <a href="01_HTML_CSS/3-Tribudo-JamesBlunt/Tributo-james-blunt.html" target="_blank">
+                        <img src="images/img/james.png" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <span>Recriando o Wikipedia</span>
+                    <a href="01_HTML_CSS/4_Recriando-Wikipedia/Recriando-wikipedia.html" target="_blank">
+                        <img src="images/img/wikepedia.jpg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <span>Pagina Venda seu Carro</span>
+                    <a href="01_HTML_CSS/5-Pagina-Venda-seu-carro/Venda-seu-carro.html" target="_blank">
+                        <img src="images/img/carro.jpg" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <span>HDC - Host</span>
+                    <a href="01_HTML_CSS/6-HDC-Host/HDCHost.html" target="_blank">
+                    <img src="images/img/hdc.jpg" alt="">
+                </a>
+                </li>
+
+                <li>
+                    <span>Clone Pagina Login Instagram</span>
+                    <a href="01_HTML_CSS/7-Clone-Instagram/Clone_pagina_inicial.html" target="_blank">
+                    <img src="images/img/instagram.jpg" alt="">
+                </a>
+                </li>
+
+                <li>
+                    <span>Blog Semantico</span>
+                    <a href="01_HTML_CSS/8-Blog-semantico/blog_semantico.html" target="_blank">
+                    <img src="images/img/blog.jpg" alt="">
+                </a>
+                </li>
+
+                <!-- <li>
+                    <span></span>
+                    <a href="" target="_blank">
+                    <img src="images/img/" alt="">
+                </a>
+                </li>
+
+
+                <li>
+                    <span></span>
+                    <a href="" target="_blank">
+                    <img src="images/img/" alt="">
+                </a>
+                </li> -->
+            </ul>
+
+
+            <h2>Projetos JavaScript</h2>
+
+        </section>
+    </main>
 </body>
 </html>
