@@ -233,4 +233,11 @@ body{
     #container-apresent img{
         width: 100%;
     }
+    #container-apresent, 
+    #habilidades,
+    #projetos,
+    #h2-grande, 
+    h1, h2, h3{
+        font-size: 1rem;
+    }
 }
