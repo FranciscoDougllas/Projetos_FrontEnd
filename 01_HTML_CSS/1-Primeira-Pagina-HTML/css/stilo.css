@@ -107,9 +107,11 @@ main p{
 blockquote{
     padding: 30px;
     margin: 30px;
-    background-color: rgb(171, 193, 213);
+    background-color: rgb(91, 132, 170);
     text-align: center;
     font-size: 1.2rem;
+    filter: drop-shadow(0 5px 10px #555);
+    color: #fff;
 }
 
 /* Fundo Rodape */
