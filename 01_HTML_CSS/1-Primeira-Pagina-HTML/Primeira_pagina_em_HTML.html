@@ -1,107 +1,107 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" href="iconhtml.png" type="image/x-icon">
-    <link rel="shortcut icon" href="iconhtml.png" type="image/x-icon">
-
-
-    <title>HTM: A Base da Web Moderna</title>
+    <title>HTML</title>
 
     <link rel="stylesheet" href="css/stilo.css">
+    <link rel="shortcut icon" href="img/iconhtml.png" type="image/x-icon">
 </head>
 <body>
-    <div class="principal">
-        <header class="header">
-            <img src="img/logo.png" alt="">
-            <h1 id="inicio">HTML: A Base da Web Moderna</h1>
-        </header>
-    
-        <nav class="inicio">
-            <a href="#historia">A Historia do HTML</a>
-            <a href="#fundamentos">Fundamentos</a>
-            <a href="#elementos">Elementos Comuns</a>
-            <a href="#semantica">HTML Semântico</a>
-            <a href="#html5">HTML e Além</a>
+    <header>
+        <img src="img/logo.png" alt="Logo HTML">
+        <nav>
+            <ul id="inicio">
+                <li><a href="#historia">Historia do HTML</a></li>
+                <li><a href="#fundamentos">Fundamentos</a></li>
+                <li><a href="#elementos">Elementos Comuns</a></li>
+                <li><a href="#semantica">HTML Semântico</a></li>
+                <li><a href="#html5">HTML e Além</a></li>
+            </ul>
         </nav>
-    
-        <main>
-            <figure>
-                <img src="img/html.png" alt="Paisagem Natural Lago">
-            </figure>
-            <section id="historia">
+    </header>
+
+    <main>
+        <figure>
+            <img src="img/paisagem.jpg" alt="Paisagem Natural Lago">
+        </figure>
+        <h1>HTML: A Base da Web Morderna</h1>
+        <section id="historia">
+            <img src="img/html.jpg" alt="Imagen HTML" id="imagen-html">
+            <div class="container-historia">
                 <h2><a href="#inicio">A Historia do HTML e Seu Criador</a></h2>
-                <p>O HTML tem uma história fascinante, iniciando-se nos corredores do CERN (Organização Europeia para a Pesquisa Nuclear), onde Tim Berners-Lee trabalhava como cientista da computação. Em 1991, ele publicou a primeira especificação do HTML, oferecendo uma maneira de compartilhar e interconectar documentos de forma eficaz na então emergente World Wide Web.</p>
+                <p>O HTML tem uma história fascinante, iniciando-se nos corredores do <strong>CERN (Organização Europeia para a Pesquisa Nuclear)</strong>, onde Tim <strong>Berners-Lee</strong> trabalhava como cientista da computação. Em 1991, ele publicou a primeira especificação do HTML, oferecendo uma maneira de compartilhar e interconectar documentos de forma eficaz na então emergente <strong>World Wide Web.</strong></p>
                 <p>Berners-Lee não apenas inventou o HTML, mas também popularizou o conceito revolucionário de hipertexto. Esse conceito permitia a navegação entre documentos por meio de links, desencadeando uma mudança sísmica na forma como interagimos com a informação online.</p>
-            </section>
-    
-            <blockquote><em>"HTML é o alfabeto digital que dá vida à linguagem da web, cada tag é uma letra, e cada página, uma história a ser contada."</em></blockquote>
-    
-    
-            <section id="fundamentos">
-                <h2><a href="#inicio">Fundamentos do HTML</a></h2>
-                <p>O HTML é uma linguagem de marcação composta por uma série de elementos, cada um com sua função específica. Esses elementos são organizados em uma estrutura hierárquica que define a aparência e a funcionalidade de uma página da web.</p>
-    
-                <p><b>Estruturas Basicas do Documento HTML</b></p>
-                <p>Um documento HTML padrão consiste em duas partes principais: o cabeçalho <b>&lt;head&gt;</b> e o corpo <b>&lt;body&gt;</b>. O cabeçalho contém metadados sobre o documento, como o título da página e a codificação de caracteres, enquanto o corpo contém o conteúdo real da página, como texto, imagens e outros elementos.</p>
-    
-                <p><b>Tags de Elementos</b></p>
-                <p>As tags HTML são usadas para marcar diferentes partes do conteúdo de uma página. Cada tag é cercada por colchetes angulares e define um elemento específico. Por exemplo, <b>&lt;p&gt;</b> define um parágrafo, <b>&lt;h1&gt;</b> a um título de maior importância e <b>&lt;img&gt;</b> uma imagem</p>
-                
-                <p><b>Atributos</b></p>
-                <p>As tags HTML podem ter atributos que fornecem informações adicionais sobre elas. Por exemplo, o atributo <b>`href`</b> em uma tag <b>&lt;a&gt;</b> define o URL de destino de um link, enquanto o atributo <b>`src`</b> em uma tag <b>&lt;img&gt;</b> especifica o local da imagem a ser exibida.</p>
-            </section>
-    
-            <blockquote><em>"No código HTML reside o poder de transformar ideias em experiências visuais, conectando mentes e corações através das telas."</em></blockquote>
-    
-            <section id="elementos">
-                <h2><a href="#inicio">Elementos Comuns do HTML</a></h2>
-                <p>O HTML oferece uma ampla variedade de elementos para estruturar e apresentar conteúdo na web. Alguns dos elementos mais comuns incluem:</p>
-    
-                <p><b>Cabeçalhos e Paragrafos:</b> <b>&lt;h1&gt; a &lth6&gt;</b> para cabeçalhos de diferentes niveis e <b>&lt;p&gt;</b> para Paragrafos de textos</p>
-                <p><b>Listas</b>: <b>&lt;ul&gt;</b> para listas não ordenadas e <b>&lt;ol&gt;</b> para listas ordenadas, <b>&lt;li&gt;</b> para os elementos das listas</p>
-                <p><b>Links e imagens</b> <b>&lt;a&gt;</b> para links e <b>&lt;img&gt;</b> para imagens</p>
-                <p><b>Formularios</b><b>: &lt;form&gt;</b> para criar formulários de entrada de dados e <b>&lt;input&gt;</b>, <b>&lt;textarea&gt;</b>, <b>&lt;select&gt;</b> para elementos de entrada de diferentes tipos.</p>
-            </section>
-    
-            <section id="semantica">
-                <h2><a href="#inicio">HTML Semântico</a></h2>
-                <p>O HTML semântico é uma prática recomendada que envolve o uso de elementos HTML de maneira que o significado e a estrutura do conteúdo sejam claramente definidos. Isso não apenas melhora a acessibilidade e a usabilidade da página, mas também é benéfico para mecanismos de busca.</p>
-    
-                <p><b>Exemplo de Elementos Semânticos</b> 
-                    <b>&lt;header&gt;</b>, <b>&lt;nav&gt;</b>, <b>&lt;main&gt;</b>, <b>&lt;section&gt;</b>, <b>&lt;article&gt;</b>, <b>&lt;aside&gt;</b>, <b>&lt;footer&gt;</b> entre outros</p>
-            </section>
-    
-            <blockquote><em>"Assim como a argila nas mãos do escultor, o HTML é a matéria-prima nas mãos do desenvolvedor, moldando a paisagem da internet."</em></blockquote>
-    
-            <section id="html5"></section>
-            <h2><a href="#inicio">HTML5 e Além</a></h2>
-            <p>HTML5 é a versão mais recente e avançada do HTML, introduzindo uma série de novos recursos e APIs para desenvolvimento web moderno. Ele oferece suporte nativo para elementos multimídia, controles de formulário avançados, aplicativos web offline, geolocalização e muito mais.</p>
-    
-            <p><b>Recursos do HTML5</b><br>
-                <b>&lt;audio&gt;</b>, <b>&lt;video&gt;</b>, <b>&lt;canvas&gt;</b>, <b>&lt;svg&gt;</b>, <b>&lt;input type="date"&gt;</b>, <b>&lt;input type="range"&gt;</b> entre outros</p>
-    
-            <p>O HTML é a base sobre a qual a web moderna é construída. Sua estrutura simples, porém poderosa, permite que desenvolvedores criem páginas da web ricas em conteúdo e interatividade. Ao entender os princípios básicos do HTML e suas melhores práticas, os desenvolvedores podem criar experiências online envolventes e acessíveis para uma audiência global. Desde os seus humildes começos até sua evolução como HTML5, esta linguagem de marcação permanece no centro da revolução digital, moldando o futuro da comunicação, colaboração e inovação na internet.</p>
-    
-    
-            <section class="social-media">
-                <div class="social-icons">
-                    <p id="redes">Contato e Redes Sociais</p>
-                    <a href="https://www.instagram.com/francisco.douglas77?igsh=b3l3aWk4NHVtc210" target="_blank"><img src="img/instagram.png" alt=""></a>
-                    <a href="https://www.facebook.com/profile.php?id=61554988854087" target="_blank"><img src="img/facebook.png" alt=""></a>
-                    <a href="https://mail.google.com/" target="_blank"><img src="img/gmail.png" alt=""></a>
-                    <a href="https://www.linkedin.com/in/francisco-dougllas/" target="_blank"><img src="img/linkedin.png" alt=""></a>
-                    <a href="https://github.com/FranciscoDougllas" target="_blank"><img src="img/github.png" alt=""></a>
-                </div>
-            </section>
-        </main>
-    
+            </div>
+        </section>
+
+        <blockquote><em>"HTML é o alfabeto digital que dá vida à linguagem da web, cada tag é uma letra, e cada página, uma história a ser contada."</em></blockquote>
+
+
+        <section id="fundamentos">
+            <h2><a href="#inicio">Fundamentos do HTML</a></h2>
+            <p>O HTML é uma linguagem de marcação composta por uma série de elementos, cada um com sua função específica. Esses elementos são organizados em uma estrutura hierárquica que define a aparência e a funcionalidade de uma página da web.</p>
+
+            <p><b>Estruturas Basicas do Documento HTML</b></p>
+            <p>Um documento HTML padrão consiste em duas partes principais: o cabeçalho <b>&lt;head&gt;</b> e o corpo <b>&lt;body&gt;</b>. O cabeçalho contém metadados sobre o documento, como o título da página e a codificação de caracteres, enquanto o corpo contém o conteúdo real da página, como texto, imagens e outros elementos.</p>
+
+            <p><b>Tags de Elementos</b></p>
+            <p>As tags HTML são usadas para marcar diferentes partes do conteúdo de uma página. Cada tag é cercada por colchetes angulares e define um elemento específico. Por exemplo, <b>&lt;p&gt;</b> define um parágrafo, <b>&lt;h1&gt;</b> a um título de maior importância e <b>&lt;img&gt;</b> uma imagem</p>
+            
+            <p><b>Atributos</b></p>
+            <p>As tags HTML podem ter atributos que fornecem informações adicionais sobre elas. Por exemplo, o atributo <b>`href`</b> em uma tag <b>&lt;a&gt;</b> define o URL de destino de um link, enquanto o atributo <b>`src`</b> em uma tag <b>&lt;img&gt;</b> especifica o local da imagem a ser exibida.</p>
+        </section>
+
+        <blockquote><em>"No código HTML reside o poder de transformar ideias em experiências visuais, conectando mentes e corações através das telas."</em></blockquote>
+
+        <section id="elementos">
+            <h2><a href="#inicio">Elementos Comuns do HTML</a></h2>
+            <p>O HTML oferece uma ampla variedade de elementos para estruturar e apresentar conteúdo na web. Alguns dos elementos mais comuns incluem:</p>
+
+            <p><b>Cabeçalhos e Paragrafos:</b> <b>&lt;h1&gt; a &lth6&gt;</b> para cabeçalhos de diferentes niveis e <b>&lt;p&gt;</b> para Paragrafos de textos</p>
+            <p><b>Listas</b>: <b>&lt;ul&gt;</b> para listas não ordenadas e <b>&lt;ol&gt;</b> para listas ordenadas, <b>&lt;li&gt;</b> para os elementos das listas</p>
+            <p><b>Links e imagens</b> <b>&lt;a&gt;</b> para links e <b>&lt;img&gt;</b> para imagens</p>
+            <p><b>Formularios</b><b>: &lt;form&gt;</b> para criar formulários de entrada de dados e <b>&lt;input&gt;</b>, <b>&lt;textarea&gt;</b>, <b>&lt;select&gt;</b> para elementos de entrada de diferentes tipos.</p>
+        </section>
+
+        <section id="semantica">
+            <h2><a href="#inicio">HTML Semântico</a></h2>
+            <p>O HTML semântico é uma prática recomendada que envolve o uso de elementos HTML de maneira que o significado e a estrutura do conteúdo sejam claramente definidos. Isso não apenas melhora a acessibilidade e a usabilidade da página, mas também é benéfico para mecanismos de busca.</p>
+
+            <p><b>Exemplo de Elementos Semânticos</b> 
+                <b>&lt;header&gt;</b>, <b>&lt;nav&gt;</b>, <b>&lt;main&gt;</b>, <b>&lt;section&gt;</b>, <b>&lt;article&gt;</b>, <b>&lt;aside&gt;</b>, <b>&lt;footer&gt;</b> entre outros</p>
+        </section>
+
+        <blockquote><em>"Assim como a argila nas mãos do escultor, o HTML é a matéria-prima nas mãos do desenvolvedor, moldando a paisagem da internet."</em></blockquote>
+
+        <section id="html5"></section>
+        <h2><a href="#inicio">HTML5 e Além</a></h2>
+        <p>HTML5 é a versão mais recente e avançada do HTML, introduzindo uma série de novos recursos e APIs para desenvolvimento web moderno. Ele oferece suporte nativo para elementos multimídia, controles de formulário avançados, aplicativos web offline, geolocalização e muito mais.</p>
+
+        <p><b>Recursos do HTML5</b><br>
+            <b>&lt;audio&gt;</b>, <b>&lt;video&gt;</b>, <b>&lt;canvas&gt;</b>, <b>&lt;svg&gt;</b>, <b>&lt;input type="date"&gt;</b>, <b>&lt;input type="range"&gt;</b> entre outros</p>
+
+        <p>O HTML é a base sobre a qual a web moderna é construída. Sua estrutura simples, porém poderosa, permite que desenvolvedores criem páginas da web ricas em conteúdo e interatividade. Ao entender os princípios básicos do HTML e suas melhores práticas, os desenvolvedores podem criar experiências online envolventes e acessíveis para uma audiência global. Desde os seus humildes começos até sua evolução como HTML5, esta linguagem de marcação permanece no centro da revolução digital, moldando o futuro da comunicação, colaboração e inovação na internet.</p>
+
+
+        <section class="social-media">
+            <div class="social-icons">
+                <p id="redes">Contato e Redes Sociais</p>
+                <a href="https://www.instagram.com/francisco.douglas77?igsh=b3l3aWk4NHVtc210" target="_blank"><img src="img/instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/profile.php?id=61554988854087" target="_blank"><img src="img/facebook.png" alt=""></a>
+                <a href="https://mail.google.com/" target="_blank"><img src="img/gmail.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/francisco-dougllas/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+                <a href="https://github.com/FranciscoDougllas" target="_blank"><img src="img/github.png" alt=""></a>
+            </div>
+        </section>
+
         <footer>
-            <p>&copy; 2024 HTML: Francisco Douglas</p>
+            <p>&copy; 2024 HTML Semântico: Francisco Douglas</p>
         </footer>
-    </div>
+
+    </main>
     
+
 </body>
 </html>
