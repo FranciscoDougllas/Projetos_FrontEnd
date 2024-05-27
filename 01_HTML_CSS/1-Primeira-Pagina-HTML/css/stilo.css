@@ -45,6 +45,7 @@ nav a:hover{
 
 /* Conteudo da Pagina */
 main{
+    padding: 10px;
     max-width: 1250px;
     margin: 10px auto;
     background-color: #fcfcfd;
@@ -52,6 +53,7 @@ main{
 
 main figure img{
     width: 100%;
+    margin-top: -20px;
 }
 main h1{
     text-align: center;
@@ -71,13 +73,23 @@ main h2{
     flex-wrap: wrap;
     justify-content: center;
 }
-main #imagen-html{
+#imagen-html{
+    display: flex;
     align-items: center;
-    width: 40vw;
+    max-width: 20vw;
     margin: 10px;
+} 
+@media screen and (max-width: 1650px){
+    #imagen-html{
+        max-width: 40vw;
+    }
+
 }
-main .container-historia{
-    width: 500px;
+    
+
+
+.container-historia{
+    width: 450px;
     margin: 10px;
     justify-content: center;
     align-items: center;
