@@ -6,7 +6,9 @@
 body{
     margin: 0 auto;
     color: #fff;
-    background: linear-gradient(90deg, #19191a 0%, rgb(0, 0, 0));
+    background-image: linear-gradient(30deg, rgb(12, 10, 19), rgb(12, 31, 44), rgb(21, 47, 44));
+    /* background-image: linear-gradient(70deg, yellow, black, blue); */
+    background-size: 20% 50% 30%;
     font-family: 'Roboto Mono', monospace;
     margin-bottom: 10vh;
 }
@@ -159,7 +161,7 @@ body{
 }
 
 /* Projetos */
-#projetos{
+section#projetos{
     margin-top: 15vh;
     margin-bottom: 5vh;
 }
@@ -179,11 +181,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .container-lista img{
     width: 250px;
     height: 200px;
-    border-radius: 20px 20px;
+    border-radius: 0 20px 0;
     box-shadow: 0 0 20px #ccc;
 }
 .container-lista img:hover{
@@ -200,7 +203,7 @@ body{
     margin: 10px;
     display: grid;
     border: 2px solid #00dbde;
-    border-radius: 0 50px 0;
+    border-radius: 0 20px 0;
     background: linear-gradient(90deg, #3e3e53 0%, rgb(7, 11, 19));
 
 }
