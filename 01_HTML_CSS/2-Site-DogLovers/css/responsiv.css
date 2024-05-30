@@ -1,32 +1,196 @@
-@media screen and (max-width: 1320px) {
-    #container-footer,
-    #rodape,
-    .nav-bar2{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-}
+/* Responsive Styles */
 
-@media screen and (max-width: 990px){
-    #container-full{
-        margin: 10px auto;
-        display: flex;
-        flex-direction: column;
+/* Mobile Devices (max-width: 768px) */ 
+@media only screen and (max-width: 768px) {
+    /* Header and Navigation *//*
+   .nav-bar {
+      flex-direction: column;
+      align-items: center;
     }
-}
-
-@media screen and (max-width: 990px){
-    .nav-bar{
-        display: flex;
+   .nav-bar ul {
+      padding: 0;
+      margin: 0;
     }
-    .nav-bar img{
-        width: 120px;
-        height: 120px;
+   .nav-bar li {
+      margin-bottom: 10px;
     }
-    .nav-bar ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+   .nav-bar a {
+      font-size: 16px;
     }
-}
+  
+    /* Main Content *//*
+    #main-container {
+      padding: 20px;
+    }
+   .content {
+      padding: 20px;
+    }
+   .content h1 {
+      font-size: 24px;
+    }
+   .content h2 {
+      font-size: 18px;
+    }
+   .content p {
+      font-size: 16px;
+    }
+  
+    /* Footer */ /*
+    #container-footer {
+      padding: 20px;
+    }
+   .nav-bar2 {
+      flex-direction: column;
+      align-items: center;
+    }
+   .nav-bar2 ul {
+      padding: 0;
+      margin: 0;
+    }
+   .nav-bar2 li {
+      margin-bottom: 10px;
+    }
+   .nav-bar2 a {
+      font-size: 16px;
+    }
+    #social-footer {
+      margin-top: 20px;
+    }
+   .social-icons {
+      flex-direction: column;
+      align-items: center;
+    }
+   .social-icons li {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Tablet Devices (min-width: 769px) and (max-width: 1024px) *//*
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Header and Navigation *//*
+   .nav-bar {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+   .nav-bar ul {
+      padding: 0;
+      margin: 0;
+    }
+   .nav-bar li {
+      margin-right: 20px;
+    }
+   .nav-bar a {
+      font-size: 18px;
+    }
+  
+    /* Main Content *//*
+    #main-container {
+      padding: 40px;
+    }
+   .content {
+      padding: 40px;
+    }
+   .content h1 {
+      font-size: 30px;
+    }
+   .content h2 {
+      font-size: 24px;
+    }
+   .content p {
+      font-size: 18px;
+    }
+  
+    /* Footer *//*
+    #container-footer {
+      padding: 40px;
+    }
+   .nav-bar2 {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+   .nav-bar2 ul {
+      padding: 0;
+      margin: 0;
+    }
+   .nav-bar2 li {
+      margin-right: 20px;
+    }
+   .nav-bar2 a {
+      font-size: 18px;
+    }
+    #social-footer {
+      margin-top: 40px;
+    }
+   .social-icons {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+   .social-icons li {
+      margin-right: 20px;
+    }
+  }
+  
+  /* Desktop Devices (min-width: 1025px) *//*
+  @media only screen and (min-width: 1025px) {
+    /* Header and Navigation *//*
+   .nav-bar {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+   .nav-bar ul {
+      padding: 0;
+      margin: 0;
+    }
+   .nav-bar li {
+      margin-right: 30px;
+    }
+   .nav-bar a {
+      font-size: 20px;
+    }
+  
+    /* Main Content *//*
+    #main-container {
+      padding: 60px;
+    }
+   .content {
+      padding: 60px;
+    }
+   .content h1 {
+      font-size: 36px;
+    }
+   .content h2 {
+      font-size: 28px;
+    }
+   .content p {
+      font-size: 20px;
+    }
+  
+    /* Footer *//*
+    #container-footer {
+      padding: 60px;
+    }
+   .nav-bar2 {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+   .nav-bar2 ul {
+      padding: 0;
+      margin: 0;
+    }
+   .nav-bar2 li {
+      margin-right: 30px;
+    }
+   .nav-bar2 a {
+      font-size: 20px;
+    }
+    #social-footer {
+      margin-top: 60px;
+    }
+   .social-icons {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+   .social-icons li {
+      margin-right: 30px;
+    }
+  }
