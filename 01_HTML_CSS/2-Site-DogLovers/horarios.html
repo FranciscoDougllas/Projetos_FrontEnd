@@ -1,120 +1,161 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica Dog Lovers</title>
 
-    <link rel="stylesheet" href="css/stilo.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/contents.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/form-tables.css">
+    <link rel="stylesheet" href="css/responsiv.css">
+
+
 
 </head>
 <body>
-    <nav>
-        <ul>
+    <div id="container-full">
+        <nav class="nav-bar">
             <img src="img/icone2.png" alt="">
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="horarios.html">Horario</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <header>
-            <img src="img/horario.jpg" alt="Horarios">
-        </header>
-
-
-        <section>
-            <h1>Horarios</h1>
-            <h2>Horário de Atendimento Completo da Clínica Veterinária Dog Lovers</h2>
-            <table>
-                <thead>
-                    <th>Serviços</th>
-                    <th>Segunda a Sexta</th>
-                    <th>Sabado</th>
-                    <th>Domingo/Feriados</th>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Recepção:</td>
-                        <td>7:00h as 19:00h</td>
-                        <td>8:00h as 16:00h</td>
-                        <td>8:00h as 12:00h</td>
-                    </tr>
-
-                    <tr>
-                        <td>Consultas Clinicas</td>
-                        <td>8:00h as 18:00h</td>
-                        <td>8:00h as 16:00</td>
-                        <td>Fechado</td>
-                    </tr>
-
-                    <tr>
-                        <td>Exames Laboratoriais</td>
-                        <td>6:00h as 12:00hr</td>
-                        <td>Fechado</td>
-                        <td>Fechado</td>
-                    </tr>
-
-                    <tr>
-                        <td>Cirugias</td>
-                        <td>8:00 as 12:00</td>
-                        <td>8:00 as 12:00</td>
-                        <td>So Urgencias</td>
-                    </tr>
-
-                    <tr>
-                        <td>Odontologia Veterinária</td>
-                        <td>9:00h as 17:00h</td>
-                        <td>9:00h as 13:00h</td>
-                        <td>9:00h as 13:00h</td>
-                    </tr>
-                </tbody>
-                    
-                <tfoot>
-                    <tr>
-                        <td>Banho e Tosa</td>
-                        <td>8:00h as 19:00h</td>
-                        <td>8:00h as 15:00h</td>
-                        <td>8:00h as 12:00h</td>
-                    </tr>
-                </tfoot>
-            </table>
-        </section>
-
-        <section class="outros">
-            <h3>Observações</h3>
             <ul>
-                <li><b>Horário de almoço</b>12h às 13h</li>
-                <li><b>Plantão noturno: </b>24 horas (somente para casos de urgência e emergência)</li>
-                <li><b>Contato para plantão noturno: </b> (86) 981625526</li>
-                <li><b>Agendamento de consultas: </b>É necessário agendar consultas com antecedência, por telefone, email ou site</li>
-                <li><b>Atendimentos especiais: </b>A clínica oferece atendimento domicílio e plantão noturno 24 horas, mediante agendamento prévio e taxa adicional.</li>
-                <li><b>Feriados: </b>O horário de atendimento da clínica é diferente em feriados. Consulte o site ou ligue para confirmar o horário de funcionamento.</li>
-            </ul>
-        </section>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="horarios.html">Horario</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul> 
+        </nav>
 
+        <main id="main-container">
+            <header id="header-horario">
+                <img src="img/pngwing.com.png" alt="Imagen Principal" class="img-header">
+            </header>
+    
+    
+    
+            <section class="content">
+                <h1>Horários.</h1>
+    
+                <h2>Horário de Atendimento Completo da Clínica Veterinária Dog Lovers</h2>
 
-        <footer class="rodape">
-            <section id="nav-interno">
-                <a href="Home.html">Home</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="horarios.html">Horario</a>
-                <a href="contato.html">Contato</a>
+                <div class="container-table">
+                    <table>
+                        <thead>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sabado</th>
+                            <th>Domingo/Feriados</th>
+                        </thead>
+        
+                        <tbody>
+                            <tr>
+                                <td>Recepção:</td>
+                                <td>7:00h as 19:00h</td>
+                                <td>8:00h as 16:00h</td>
+                                <td>8:00h as 12:00h</td>
+                            </tr>
+        
+                            <tr>
+                                <td>Consultas Clinicas</td>
+                                <td>8:00h as 18:00h</td>
+                                <td>8:00h as 16:00</td>
+                                <td>Fechado</td>
+                            </tr>
+        
+                            <tr>
+                                <td>Exames Laboratoriais</td>
+                                <td>6:00h as 12:00hr</td>
+                                <td>Fechado</td>
+                                <td>Fechado</td>
+                            </tr>
+        
+                            <tr>
+                                <td>Cirugias</td>
+                                <td>8:00 as 12:00</td>
+                                <td>8:00 as 12:00</td>
+                                <td>So Urgencias</td>
+                            </tr>
+        
+                            <tr>
+                                <td>Odontologia Veterinária</td>
+                                <td>9:00h as 17:00h</td>
+                                <td>9:00h as 13:00h</td>
+                                <td>9:00h as 13:00h</td>
+                            </tr>
+                        </tbody>
+                            
+                        <tfoot>
+                            <tr>
+                                <td>Banho e Tosa</td>
+                                <td>8:00h as 19:00h</td>
+                                <td>8:00h as 15:00h</td>
+                                <td>8:00h as 12:00h</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+        
+                </div>
+                
+            <section id="diferenc">
+                <h3>Observações</h3>
+                <ul>
+                    <li>
+                        <p><b>Horário de almoço: </b>12h às 13h</p>
+                    </li>
+                    <li>
+                        <p><b>Plantão noturno:</b> 24 horas (somente para casos de urgência e emergência)</p>
+                    </li>
+                    <li>
+                        <p><b>Contato para plantão noturno:</b> (86) 981625526</p>
+                    </li>
+                    <li>
+                        <p><b>Atendimentos especiais: </b>A clínica oferece atendimento domicílio e plantão noturno 24 horas, mediante agendamento prévio e taxa adicional.</p>
+                    </li>
+                    <li>
+                        <p><b>Feriados: </b>O horário de atendimento da clínica é diferente em feriados. Consulte o site ou ligue para confirmar o horário de funcionamento.</p>
+                    </li>
+                </ul>
+    
+                <h3>Seu Cãozinho Merece o Melhor!</h3>
+                <p>Agende uma consulta na Dog Lovers e traga seu melhor amigo para conhecer nossa clínica</p>
             </section>
-
-            <section id="redes-sociais">
-                <a href="https://www.instagram.com/franciscodouglas3451/" target="_blank"><img src="./img/instagram.png" alt=""></a>
-                <a href="https://www.facebook.com/profile.php?id=61554988854087" target="_blank"><img src="./img/facebook.png" alt=""></a>
-                <a href="https://mail.google.com/" target="_blank"><img src="./img/gmail.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/francisco-dougllas/" target="_blank"><img src="./img/linkedin.png" alt=""></a>
-                <a href="https://github.com/FranciscoDougllas" target="_blank"><img src="img/github.png" alt=""></a>
+    
+            <section id="container-footer">
+                <footer id="rodape">
+                    <img src="img/icone2.png" alt="" class="img-rodape">
+                    <ul class="nav-bar2">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="horarios.html">Horario</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                    
+                    <div id="social-footer">
+                        <ul class="social-icons">
+        
+                            <li><a target="_blank" href="https://www.instagram.com/franciscodouglas3451/"><img src="img/instagram.png" alt=""></a></li>
+            
+            
+                            <li><a target="_blank" href="https://www.facebook.com/people/Francisco-Douglas/pfbid0221MWWA65JCFoZja3mNDv86MCp8TxdxFjZujKYtCHhLqH9mCVMoFsawzkJfWMW8qal/"><img src="img/facebook.png" alt=""></a></li>
+            
+            
+                            <li><a target="_blank" href="https://mail.google.com/mail/u/0/#inbox
+                                "><img src="img/gmail.png" alt=""></a></li>
+            
+            
+                            <li><a target="_blank" href="https://www.linkedin.com/in/francisco-dougllas/"><img src="img/linkedin.png" alt=""></a></li>
+            
+            
+                            <li><a target="_blank" href="https://github.com/FranciscoDougllas"><img src="img/github.png" alt=""></a></li>
+            
+                            <li><a target="_blank" href="https://franciscodougllas.github.io/Projetos_FrontEnd/"><img src="img/portfolio.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </footer>
             </section>
-
-            <p>&copy; 2024 HTML: Francisco Douglas</p>
-        </footer>
-    </main>
+            
+        </main>
+    </div>
+    <footer id="copy"><p>&copy;2024 Dog Lovers: Francisco Douglas</p></footer>
 </body>
 </html>
