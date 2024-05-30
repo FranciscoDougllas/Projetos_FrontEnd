@@ -141,6 +141,8 @@ blockquote{
 }
 .social-icons img:hover{
     box-shadow: 0 0 1.5vw rgb(255, 255, 255);
+    background-image: linear-gradient(30deg, rgb(162, 162, 184), #948bb0, #21dcc6);
+
 }
 .social-icons #redes{
     text-align: center;
