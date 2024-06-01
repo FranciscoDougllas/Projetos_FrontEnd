@@ -186,25 +186,27 @@ section#projetos{
 .container-lista img{
     width: 250px;
     height: 200px;
-    border-radius: 0 20px 0;
-    box-shadow: 0 0 20px #ccc;
+    border-radius:10px;
+    box-shadow: 0 0 10px #606380;
 }
 .container-lista img:hover{
-    box-shadow: 0 0 40px #ccc;
+    box-shadow: 0 0 30px #ccc;
+    background: linear-gradient(90deg, #88bcb6, #a8d0cd, #d9ffff);
 }
 .container-lista li:hover{
     filter: drop-shadow(0 0 10px #ccc);
 }
 
 .container-lista li{
+    width: 300px;
+    height: 300px;
     text-align: center;
     align-items: center;
     padding: 20px;
     margin: 10px;
     display: grid;
-    border: 2px solid #00dbde;
-    border-radius: 0 20px 0;
-    background: linear-gradient(90deg, #3e3e53 0%, rgb(7, 11, 19));
+    border-radius: 10px;
+    background: linear-gradient(90deg, #3e3e53 0%, rgb(7, 11, 19)); */
 
 }
 .container-lista a{

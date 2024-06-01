@@ -1,0 +1,113 @@
+#containes {
+    display: flex;
+    flex-direction: column;
+}
+
+#containes img {
+    width: 70px;
+    border-radius: 20px;
+}
+
+#container-interno {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #33354b;
+    border-radius: 10px;
+}
+
+.container-button {
+    margin: 10px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+button {
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    background: linear-gradient(40deg,
+            #a0a0a0, #c0c0c0, #dfdfdf);
+    font-size: 1.2rem;
+    color: #333;
+}
+#container-interno h2:hover{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.container-button ul {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ferramentas li {
+    list-style: none;
+    margin: 5px;
+}
+
+.pessoal li {
+    margin: 10px;
+}
+
+.pessoal ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.idiomas {
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.idiomas ul {
+    display: flex;
+}
+
+.idiomas li {
+    list-style: none;
+    padding: 20px;
+}
+
+.portfolio {
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.portfolio a {
+    text-decoration: line;
+    margin: 15px;
+    color: #fff;
+}
+
+.portfolio li {
+    list-style: none;
+    margin: 10px;
+}
+
+.experiencia {
+    margin: 20px;
+}
+
+.experiencia ul {
+    margin: 10px;
+}
+
+.experiencia li {
+    list-style: none;
+    color: #fff;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+}
