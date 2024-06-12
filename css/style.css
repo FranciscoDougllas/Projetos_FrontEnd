@@ -154,11 +154,14 @@ body{
     text-align: center;
 }
 
+
 .lista-habilidades img{
     width: 100px;
-    border-radius: 120px;
-    filter: drop-shadow(0 5px 10px);
+    border-radius: 20px;
+    margin-top: 10px;
+    filter: drop-shadow(0 0 10px);
 }
+
 
 /* Projetos */
 section#projetos{
