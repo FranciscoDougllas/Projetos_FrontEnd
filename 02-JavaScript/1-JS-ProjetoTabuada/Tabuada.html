@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +7,43 @@
 
     <link rel="stylesheet" href="css/stilo.css">
     <script src="js/Tabuada.js" defer></script>
-
 </head>
 <body>
-    <h2>Digite um numero e Confirme para Ver a Tabuada</h2>
-    <form action="" id="multiplication-form">
-        <div class="form-control">
-            <label for="number">Tabuada do:</label>
-            <input type="number" name="number" id="number" placeholder="1">
-        </div>
+    <h1>Tabuada Moderna</h1>
+    <h2>Digite os numeros para Calcular!</h2>
 
-        <div class="form-control">
-            <label for="multiplicator">Multiplica ate:</label>
-            <input type="number" name="multiplicator" id="multiplicator" value="10">
+    <main id="container">
+        <form action="" class="form-container">
+            <div id="number-contain">
+                <label for="number1">Tabuada do: </label>
+                <input type="number" name="number1" id="number1">
+            </div>
+
+            <div id="number-contain">
+                <label for="number2">Até o número: </label>
+                <input type="number" name="number1" id="number2">
+            </div>
+        </form>
+
+        <section id="options">
+            <h2>Calcular:</h2>
+            <button type="button" class="options" id="soma">&#43</button>
+            <button type="button" class="options" id="sub">&#8722</button>
+            <button type="button" class="options" id="mult">&#215</button>
+            <button type="button" class="options" id="divid">&#247</button>
+        </section>
+
+        <div id="botoes">
+            <button type="button" id="limp" class="limp">Limpar Dados</button>
+            <button type="button" id="complet" class="limp">Tab: Completa</button>
         </div>
-        <input type="submit" value="Calcular">
-    </form>
-    <div id="multiplication-table">
-        <h2 id="multiplication-title">Tabuada do numero: <span></span></h2>
-        <div id="multiplication-operations">
-            <p>Informe um numero para calcular uma tabuada...</p>
-        </div>
-    </div>
+        
+       
+    </main>
+    <section id="output">
+        <h2>Tabuada:</h2>
+        <div id="saida-dados"></div>
+        <div id="tb-complet"></div>
+    </section>
 </body>
 </html>
