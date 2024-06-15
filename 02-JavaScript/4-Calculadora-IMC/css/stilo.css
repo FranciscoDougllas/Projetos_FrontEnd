@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+main{
+    width: 500px;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fff;
+    padding: 20px;
+    margin-top: 20px;
+    background: linear-gradient(#447a37,#739b65,#739b65, #447a37);
+    box-shadow: 10px 20px 5px rgb(88, 82, 82),
+                -5px -5px 10px rgb(60, 60, 60);
+
+}
+
+
+header h1{
+    margin: 20px;
+}
+.input-options{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align:left;
+}
+.input-options label{
+    margin-bottom: 10px;
+}
+.input-options input{
+    padding: 15px;
+}
+
+#container-form{
+    margin-bottom: 40px;
+    /* display: block; */
+}
+
+button{
+    padding: 15px;
+    width: 146px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.calcular{
+    background-color: red;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.calcular:hover{
+    background-color: rgb(184, 111, 111);
+}
+
+.limpa{
+    background-color: #333;
+    font-size: 1.2rem;
+    color: #fff; 
+}
+.limpa:hover{
+    background-color: #655f5f;
+}
+
+/* Result */
+#saida-dados{
+    display: none;
+    width: 100%;
+
+}
+
+
+
+.imc-number{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.imc-number span{
+    font-size: 2rem;
+    color: red;
+}
+.situacao {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.situacao span{
+    color: red;
+
+}
+
+#tableDados{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    font-weight: 100;
+    font-family: Helvetica;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #655f5f, #7c7d7e, #655f5f);
+}
+tr, th, td{
+    border: 1px solid;
+    font-weight: 100;
+    padding: 10px;
+}
+
+
+thead{
+    background-color: rgb(217, 219, 226);
+    color: #333;
+    
+}
+
+#saida-dados p {
+    margin: 10px;
+    font-size: 1.2rem;
+}
