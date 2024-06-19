@@ -3,10 +3,10 @@ const botaoFecharModal = document.getElementById("botaoFecharModal");
 const arrayStatsTitulo = Array.from(document.getElementsByClassName("stats__item--titulo"));
 const arrayAbasDesc = Array.from(document.getElementsByClassName("description__aba"));
 
-const nomeDoPokemon = document.getElementById("nomeDoPokemon");
-const numeroDoPokemon = document.getElementById("numeroDoPokemon");
-const tiposDoPokemon = document.getElementById("tiposDoPokemon");
-const imagemDoPokemon = document.getElementById("imagemDoPokemon");
+const nomeDoPokemon     = document.getElementById("nomeDoPokemon");
+const numeroDoPokemon   = document.getElementById("numeroDoPokemon");
+const tiposDoPokemon    = document.getElementById("tiposDoPokemon");
+const imagemDoPokemon   = document.getElementById("imagemDoPokemon");
 const especieDoPokemon = document.getElementById("especieDoPokemon");
 const alturaDoPokemon = document.getElementById("alturaDoPokemon");
 const pesoDoPokemon = document.getElementById("pesoDoPokemon");

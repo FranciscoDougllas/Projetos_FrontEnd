@@ -16,10 +16,12 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: #333;
+    background: linear-gradient(45deg, #000000, gray, hsl(0, 0%, 50%), #000000);
 
 }
 header img{
     width: 120px;
+    filter: drop-shadow(10px 10px 5px #000);
 }
 header nav ul{
     display: flex;
@@ -33,13 +35,13 @@ nav li {
 
 nav a {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-decoration: none;
     font-weight: bold;
 
 }
 nav a:hover{
-    color: #999;
+    color: #8fcb0e;
 }
 
 
@@ -85,8 +87,6 @@ main h2{
     }
 
 }
-    
-
 
 .container-historia{
     width: 450px;
@@ -107,22 +107,23 @@ main p{
 blockquote{
     padding: 30px;
     margin: 30px;
-    background-color: rgb(91, 132, 170);
     text-align: center;
     font-size: 1.2rem;
     filter: drop-shadow(0 5px 10px #555);
     color: #fff;
+    background: linear-gradient(45deg, #000, #746666, #746666, #000);
 }
 
 /* Fundo Rodape */
 .social-media{
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 5vh;
-    background-color: rgb(163, 161, 173);
+    color: #fff;
+    background: linear-gradient(45deg, #000, #746666, #746666, #000);
 
 }
 .social-icons{
