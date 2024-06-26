@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=O+cara+mais+sortudo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+}
+
+.header{
+    background-image: url('../img/Header\ Background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 459px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.header h1{
+    margin: 30px;
+    font-family: Luckiest Guy;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.header > p{
+    width: 650px;
+    text-align: center;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.link1,
+.botao2{
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.botao2{
+    background-color: #333;
+    color: #fff;
+}
+.link1{
+    background-color: #fff;
+    color: #333;
+}
+
+.link1:hover,
+.botao2:hover{
+    background-color: rgb(168, 69, 208);
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #fff;
+}
+
+#espaco2{
+    display: flex;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+#espaco2 img{
+    width: 650px;
+}
+.container1{
+    width: 550px;
+}
+.container1 h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-Fim h2{
+    font-family: Luckiest Guy;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin: 10px;
+}
+#final img{
+    width: 50%;
+}
+
+footer{
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+footer h2{
+    margin: 10px;
+}
